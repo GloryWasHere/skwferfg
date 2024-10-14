@@ -26,7 +26,7 @@ local ESP = {
             VisibleCheck = true,
         },
         Names = {
-            Enabled = false,
+            Enabled = true,
             RGB = Color3.fromRGB(255, 255, 255),
         },
         Flags = {
@@ -38,7 +38,7 @@ local ESP = {
             RGB = Color3.fromRGB(255, 255, 255),
         },
         Weapons = {
-            Enabled = false, WeaponTextRGB = Color3.fromRGB(119, 120, 255),
+            Enabled = true, WeaponTextRGB = Color3.fromRGB(119, 120, 255),
             Outlined = false,
             Gradient = false,
             GradientRGB1 = Color3.fromRGB(255, 255, 255), GradientRGB2 = Color3.fromRGB(119, 120, 255),
@@ -50,12 +50,12 @@ local ESP = {
             Gradient = true, GradientRGB1 = Color3.fromRGB(200, 0, 0), GradientRGB2 = Color3.fromRGB(60, 60, 125), GradientRGB3 = Color3.fromRGB(119, 120, 255), 
         },
         Boxes = {
-            Animate = false,
+            Animate = true,
             RotationSpeed = 300,
             Gradient = false, GradientRGB1 = Color3.fromRGB(119, 120, 255), GradientRGB2 = Color3.fromRGB(0, 0, 0), 
             GradientFill = true, GradientFillRGB1 = Color3.fromRGB(119, 120, 255), GradientFillRGB2 = Color3.fromRGB(0, 0, 0), 
             Filled = {
-                Enabled = false,
+                Enabled = true,
                 Transparency = 0.75,
                 RGB = Color3.fromRGB(0, 0, 0),
             },
